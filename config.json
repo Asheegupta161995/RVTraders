@@ -4,7 +4,8 @@
     "matchedText": "Truck camper",
 
     "HomePage": {
-    "homeurl": "https://qa.dev.rvtrader.com/Forest-River/rvs-for-sale?make=Forest%20River%7C440465&zip=90001&radius=150",    
+    "homeUrlWithKeyword": "https://qa.dev.rvtrader.com/Forest-River/rvs-for-sale?make=Forest%20River%7C440465&zip=90001&radius=150",
+    "homeUrlWithoutKeyword": "https://qa.dev.rvtrader.com/rvs-for-sale?zip=90001&radius=150",    
     "selectType": "Class A",
     "searchKeyword": "Forest River",
     "searchZipCode": "90001",
@@ -12,6 +13,8 @@
     },
 
     "SRPPage":{
-    "filterModel": "ACADIA"
+      "filterModel": "ACADIA",
+      "minPrice": "400",
+      "maxPrice": "4000000"
     }
   }
